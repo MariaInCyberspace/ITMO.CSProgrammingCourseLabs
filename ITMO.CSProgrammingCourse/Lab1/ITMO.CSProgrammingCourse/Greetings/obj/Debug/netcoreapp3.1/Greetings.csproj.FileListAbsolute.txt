@@ -1,0 +1,13 @@
+C:\Users\ГАЛИНА РОМАНОВА\Desktop\ITMO.CSProgrammingCourse\ITMO.CSProgrammingCourse\Lab1\ITMO.CSProgrammingCourse\Greetings\bin\Debug\netcoreapp3.1\Greetings.exe
+C:\Users\ГАЛИНА РОМАНОВА\Desktop\ITMO.CSProgrammingCourse\ITMO.CSProgrammingCourse\Lab1\ITMO.CSProgrammingCourse\Greetings\bin\Debug\netcoreapp3.1\Greetings.deps.json
+C:\Users\ГАЛИНА РОМАНОВА\Desktop\ITMO.CSProgrammingCourse\ITMO.CSProgrammingCourse\Lab1\ITMO.CSProgrammingCourse\Greetings\bin\Debug\netcoreapp3.1\Greetings.runtimeconfig.json
+C:\Users\ГАЛИНА РОМАНОВА\Desktop\ITMO.CSProgrammingCourse\ITMO.CSProgrammingCourse\Lab1\ITMO.CSProgrammingCourse\Greetings\bin\Debug\netcoreapp3.1\Greetings.runtimeconfig.dev.json
+C:\Users\ГАЛИНА РОМАНОВА\Desktop\ITMO.CSProgrammingCourse\ITMO.CSProgrammingCourse\Lab1\ITMO.CSProgrammingCourse\Greetings\bin\Debug\netcoreapp3.1\Greetings.dll
+C:\Users\ГАЛИНА РОМАНОВА\Desktop\ITMO.CSProgrammingCourse\ITMO.CSProgrammingCourse\Lab1\ITMO.CSProgrammingCourse\Greetings\bin\Debug\netcoreapp3.1\Greetings.pdb
+C:\Users\ГАЛИНА РОМАНОВА\Desktop\ITMO.CSProgrammingCourse\ITMO.CSProgrammingCourse\Lab1\ITMO.CSProgrammingCourse\Greetings\obj\Debug\netcoreapp3.1\Greetings.csprojAssemblyReference.cache
+C:\Users\ГАЛИНА РОМАНОВА\Desktop\ITMO.CSProgrammingCourse\ITMO.CSProgrammingCourse\Lab1\ITMO.CSProgrammingCourse\Greetings\obj\Debug\netcoreapp3.1\Greetings.AssemblyInfoInputs.cache
+C:\Users\ГАЛИНА РОМАНОВА\Desktop\ITMO.CSProgrammingCourse\ITMO.CSProgrammingCourse\Lab1\ITMO.CSProgrammingCourse\Greetings\obj\Debug\netcoreapp3.1\Greetings.AssemblyInfo.cs
+C:\Users\ГАЛИНА РОМАНОВА\Desktop\ITMO.CSProgrammingCourse\ITMO.CSProgrammingCourse\Lab1\ITMO.CSProgrammingCourse\Greetings\obj\Debug\netcoreapp3.1\Greetings.csproj.CoreCompileInputs.cache
+C:\Users\ГАЛИНА РОМАНОВА\Desktop\ITMO.CSProgrammingCourse\ITMO.CSProgrammingCourse\Lab1\ITMO.CSProgrammingCourse\Greetings\obj\Debug\netcoreapp3.1\Greetings.dll
+C:\Users\ГАЛИНА РОМАНОВА\Desktop\ITMO.CSProgrammingCourse\ITMO.CSProgrammingCourse\Lab1\ITMO.CSProgrammingCourse\Greetings\obj\Debug\netcoreapp3.1\Greetings.pdb
+C:\Users\ГАЛИНА РОМАНОВА\Desktop\ITMO.CSProgrammingCourse\ITMO.CSProgrammingCourse\Lab1\ITMO.CSProgrammingCourse\Greetings\obj\Debug\netcoreapp3.1\Greetings.genruntimeconfig.cache
