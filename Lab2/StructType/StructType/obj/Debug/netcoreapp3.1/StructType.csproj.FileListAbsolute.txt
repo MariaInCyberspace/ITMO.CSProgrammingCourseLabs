@@ -1,0 +1,13 @@
+C:\Users\ГАЛИНА РОМАНОВА\Desktop\ITMO.CSProgrammingCourse\Lab2\StructType\StructType\bin\Debug\netcoreapp3.1\StructType.exe
+C:\Users\ГАЛИНА РОМАНОВА\Desktop\ITMO.CSProgrammingCourse\Lab2\StructType\StructType\bin\Debug\netcoreapp3.1\StructType.deps.json
+C:\Users\ГАЛИНА РОМАНОВА\Desktop\ITMO.CSProgrammingCourse\Lab2\StructType\StructType\bin\Debug\netcoreapp3.1\StructType.runtimeconfig.json
+C:\Users\ГАЛИНА РОМАНОВА\Desktop\ITMO.CSProgrammingCourse\Lab2\StructType\StructType\bin\Debug\netcoreapp3.1\StructType.runtimeconfig.dev.json
+C:\Users\ГАЛИНА РОМАНОВА\Desktop\ITMO.CSProgrammingCourse\Lab2\StructType\StructType\bin\Debug\netcoreapp3.1\StructType.dll
+C:\Users\ГАЛИНА РОМАНОВА\Desktop\ITMO.CSProgrammingCourse\Lab2\StructType\StructType\bin\Debug\netcoreapp3.1\StructType.pdb
+C:\Users\ГАЛИНА РОМАНОВА\Desktop\ITMO.CSProgrammingCourse\Lab2\StructType\StructType\obj\Debug\netcoreapp3.1\StructType.csprojAssemblyReference.cache
+C:\Users\ГАЛИНА РОМАНОВА\Desktop\ITMO.CSProgrammingCourse\Lab2\StructType\StructType\obj\Debug\netcoreapp3.1\StructType.AssemblyInfoInputs.cache
+C:\Users\ГАЛИНА РОМАНОВА\Desktop\ITMO.CSProgrammingCourse\Lab2\StructType\StructType\obj\Debug\netcoreapp3.1\StructType.AssemblyInfo.cs
+C:\Users\ГАЛИНА РОМАНОВА\Desktop\ITMO.CSProgrammingCourse\Lab2\StructType\StructType\obj\Debug\netcoreapp3.1\StructType.csproj.CoreCompileInputs.cache
+C:\Users\ГАЛИНА РОМАНОВА\Desktop\ITMO.CSProgrammingCourse\Lab2\StructType\StructType\obj\Debug\netcoreapp3.1\StructType.dll
+C:\Users\ГАЛИНА РОМАНОВА\Desktop\ITMO.CSProgrammingCourse\Lab2\StructType\StructType\obj\Debug\netcoreapp3.1\StructType.pdb
+C:\Users\ГАЛИНА РОМАНОВА\Desktop\ITMO.CSProgrammingCourse\Lab2\StructType\StructType\obj\Debug\netcoreapp3.1\StructType.genruntimeconfig.cache
