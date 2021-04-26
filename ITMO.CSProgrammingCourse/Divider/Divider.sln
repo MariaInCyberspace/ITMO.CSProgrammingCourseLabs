@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Divider", "Divider\Divider.csproj", "{2CD8B0ED-29A2-4EFC-9D9F-504DE4FEECBC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Divider(Lab1,Ex2)", "Divider\Divider(Lab1,Ex2).csproj", "{2CD8B0ED-29A2-4EFC-9D9F-504DE4FEECBC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
