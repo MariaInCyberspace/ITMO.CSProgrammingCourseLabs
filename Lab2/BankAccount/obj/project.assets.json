@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ГАЛИНА РОМАНОВА\\Desktop\\ITMO.CSProgrammingCourse\\ITMO.CSProgrammingCourse\\BankAccount(Lab3,Ex1)\\BankAccount(Lab3,Ex1).csproj",
-      "projectName": "BankAccount(Lab3,Ex1)",
-      "projectPath": "C:\\Users\\ГАЛИНА РОМАНОВА\\Desktop\\ITMO.CSProgrammingCourse\\ITMO.CSProgrammingCourse\\BankAccount(Lab3,Ex1)\\BankAccount(Lab3,Ex1).csproj",
+      "projectUniqueName": "C:\\Users\\ГАЛИНА РОМАНОВА\\Desktop\\ITMO.CSProgrammingCourse\\Lab2\\BankAccount\\BankAccount.csproj",
+      "projectName": "BankAccount",
+      "projectPath": "C:\\Users\\ГАЛИНА РОМАНОВА\\Desktop\\ITMO.CSProgrammingCourse\\Lab2\\BankAccount\\BankAccount.csproj",
       "packagesPath": "C:\\Users\\ГАЛИНА РОМАНОВА\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ГАЛИНА РОМАНОВА\\Desktop\\ITMO.CSProgrammingCourse\\ITMO.CSProgrammingCourse\\BankAccount(Lab3,Ex1)\\obj\\",
+      "outputPath": "C:\\Users\\ГАЛИНА РОМАНОВА\\Desktop\\ITMO.CSProgrammingCourse\\Lab2\\BankAccount\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
