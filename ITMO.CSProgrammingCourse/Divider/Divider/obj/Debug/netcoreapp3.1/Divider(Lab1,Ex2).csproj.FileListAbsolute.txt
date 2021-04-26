@@ -1,0 +1,13 @@
+C:\Users\ГАЛИНА РОМАНОВА\Desktop\ITMO.CSProgrammingCourse\ITMO.CSProgrammingCourse\Divider\Divider\bin\Debug\netcoreapp3.1\Divider(Lab1,Ex2).exe
+C:\Users\ГАЛИНА РОМАНОВА\Desktop\ITMO.CSProgrammingCourse\ITMO.CSProgrammingCourse\Divider\Divider\bin\Debug\netcoreapp3.1\Divider(Lab1,Ex2).deps.json
+C:\Users\ГАЛИНА РОМАНОВА\Desktop\ITMO.CSProgrammingCourse\ITMO.CSProgrammingCourse\Divider\Divider\bin\Debug\netcoreapp3.1\Divider(Lab1,Ex2).runtimeconfig.json
+C:\Users\ГАЛИНА РОМАНОВА\Desktop\ITMO.CSProgrammingCourse\ITMO.CSProgrammingCourse\Divider\Divider\bin\Debug\netcoreapp3.1\Divider(Lab1,Ex2).runtimeconfig.dev.json
+C:\Users\ГАЛИНА РОМАНОВА\Desktop\ITMO.CSProgrammingCourse\ITMO.CSProgrammingCourse\Divider\Divider\bin\Debug\netcoreapp3.1\Divider(Lab1,Ex2).dll
+C:\Users\ГАЛИНА РОМАНОВА\Desktop\ITMO.CSProgrammingCourse\ITMO.CSProgrammingCourse\Divider\Divider\bin\Debug\netcoreapp3.1\Divider(Lab1,Ex2).pdb
+C:\Users\ГАЛИНА РОМАНОВА\Desktop\ITMO.CSProgrammingCourse\ITMO.CSProgrammingCourse\Divider\Divider\obj\Debug\netcoreapp3.1\Divider(Lab1,Ex2).csprojAssemblyReference.cache
+C:\Users\ГАЛИНА РОМАНОВА\Desktop\ITMO.CSProgrammingCourse\ITMO.CSProgrammingCourse\Divider\Divider\obj\Debug\netcoreapp3.1\Divider(Lab1,Ex2).AssemblyInfoInputs.cache
+C:\Users\ГАЛИНА РОМАНОВА\Desktop\ITMO.CSProgrammingCourse\ITMO.CSProgrammingCourse\Divider\Divider\obj\Debug\netcoreapp3.1\Divider(Lab1,Ex2).AssemblyInfo.cs
+C:\Users\ГАЛИНА РОМАНОВА\Desktop\ITMO.CSProgrammingCourse\ITMO.CSProgrammingCourse\Divider\Divider\obj\Debug\netcoreapp3.1\Divider(Lab1,Ex2).csproj.CoreCompileInputs.cache
+C:\Users\ГАЛИНА РОМАНОВА\Desktop\ITMO.CSProgrammingCourse\ITMO.CSProgrammingCourse\Divider\Divider\obj\Debug\netcoreapp3.1\Divider(Lab1,Ex2).dll
+C:\Users\ГАЛИНА РОМАНОВА\Desktop\ITMO.CSProgrammingCourse\ITMO.CSProgrammingCourse\Divider\Divider\obj\Debug\netcoreapp3.1\Divider(Lab1,Ex2).pdb
+C:\Users\ГАЛИНА РОМАНОВА\Desktop\ITMO.CSProgrammingCourse\ITMO.CSProgrammingCourse\Divider\Divider\obj\Debug\netcoreapp3.1\Divider(Lab1,Ex2).genruntimeconfig.cache
