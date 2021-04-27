@@ -5,6 +5,22 @@ using System.Text;
 
 namespace WhatDay1
 {
+
+    enum MonthName
+    {
+        January,
+        February,
+        March,
+        April,
+        May,
+        June,
+        July,
+        August,
+        September,
+        October,
+        November,
+        December
+    }
     class WhatDay
     {
         static void Main(string[] args)
@@ -16,13 +32,26 @@ namespace WhatDay1
 
             int monthNum = 0;
 
+            foreach (int daysInMonth in DaysInMonths)
+            {
+                if (dayNum <= daysInMonth)
+                {
+                    break;
+                }
+                else
+                {
+                    dayNum -= daysInMonth;
+                    monthNum++;
+                }
+            }
+
 
             ////////////////////////////////////////////////////////////////////
             ////// Uncomment the code below  before Calculating           //////
             /////  the month and day pair from a day number               //////
             ////////////////////////////////////////////////////////////////////
 
-                    if (dayNum <= 31) { // January
+                   /* if (dayNum <= 31) { // January
                        goto End;
                     } else {
                         dayNum -= 31;
@@ -133,8 +162,10 @@ namespace WhatDay1
                     {
                         dayNum -= 31;
                         monthNum++;
-                    } End:
-            string monthName;
+                    } End:*/
+
+            MonthName temp = (MonthName)monthNum;
+            string monthName = temp.ToString();
 
 
             //////////////////////////////////////////////////////////////
@@ -178,6 +209,7 @@ namespace WhatDay1
                     monthName = "not done yet"; break;
 
             }*/
+            
 
             Console.WriteLine("{0} {1}", dayNum, monthName); 
             }
