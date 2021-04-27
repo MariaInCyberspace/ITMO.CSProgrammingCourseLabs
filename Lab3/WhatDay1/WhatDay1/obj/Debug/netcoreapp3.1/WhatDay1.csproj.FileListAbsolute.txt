@@ -1,0 +1,13 @@
+C:\Users\ГАЛИНА РОМАНОВА\Desktop\ITMO.CSProgrammingCourse\Lab3\WhatDay1\WhatDay1\obj\Debug\netcoreapp3.1\WhatDay1.csprojAssemblyReference.cache
+C:\Users\ГАЛИНА РОМАНОВА\Desktop\ITMO.CSProgrammingCourse\Lab3\WhatDay1\WhatDay1\obj\Debug\netcoreapp3.1\WhatDay1.AssemblyInfoInputs.cache
+C:\Users\ГАЛИНА РОМАНОВА\Desktop\ITMO.CSProgrammingCourse\Lab3\WhatDay1\WhatDay1\obj\Debug\netcoreapp3.1\WhatDay1.AssemblyInfo.cs
+C:\Users\ГАЛИНА РОМАНОВА\Desktop\ITMO.CSProgrammingCourse\Lab3\WhatDay1\WhatDay1\obj\Debug\netcoreapp3.1\WhatDay1.csproj.CoreCompileInputs.cache
+C:\Users\ГАЛИНА РОМАНОВА\Desktop\ITMO.CSProgrammingCourse\Lab3\WhatDay1\WhatDay1\bin\Debug\netcoreapp3.1\WhatDay1.exe
+C:\Users\ГАЛИНА РОМАНОВА\Desktop\ITMO.CSProgrammingCourse\Lab3\WhatDay1\WhatDay1\bin\Debug\netcoreapp3.1\WhatDay1.deps.json
+C:\Users\ГАЛИНА РОМАНОВА\Desktop\ITMO.CSProgrammingCourse\Lab3\WhatDay1\WhatDay1\bin\Debug\netcoreapp3.1\WhatDay1.runtimeconfig.json
+C:\Users\ГАЛИНА РОМАНОВА\Desktop\ITMO.CSProgrammingCourse\Lab3\WhatDay1\WhatDay1\bin\Debug\netcoreapp3.1\WhatDay1.runtimeconfig.dev.json
+C:\Users\ГАЛИНА РОМАНОВА\Desktop\ITMO.CSProgrammingCourse\Lab3\WhatDay1\WhatDay1\bin\Debug\netcoreapp3.1\WhatDay1.dll
+C:\Users\ГАЛИНА РОМАНОВА\Desktop\ITMO.CSProgrammingCourse\Lab3\WhatDay1\WhatDay1\bin\Debug\netcoreapp3.1\WhatDay1.pdb
+C:\Users\ГАЛИНА РОМАНОВА\Desktop\ITMO.CSProgrammingCourse\Lab3\WhatDay1\WhatDay1\obj\Debug\netcoreapp3.1\WhatDay1.dll
+C:\Users\ГАЛИНА РОМАНОВА\Desktop\ITMO.CSProgrammingCourse\Lab3\WhatDay1\WhatDay1\obj\Debug\netcoreapp3.1\WhatDay1.pdb
+C:\Users\ГАЛИНА РОМАНОВА\Desktop\ITMO.CSProgrammingCourse\Lab3\WhatDay1\WhatDay1\obj\Debug\netcoreapp3.1\WhatDay1.genruntimeconfig.cache
