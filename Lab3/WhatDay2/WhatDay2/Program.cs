@@ -25,29 +25,45 @@ namespace WhatDay2
 
         static void Main(string[] args)
         {
-            Console.Write("Please input a day number between 1 and 365: ");
-
-            int dayNum = int.Parse(Console.ReadLine());
-
-            int monthNum = 0;
-
-            foreach (int daysInMonth in DaysInMonths)
+            try 
             {
-                if (dayNum <= daysInMonth)
+                Console.Write("Please input a day number between 1 and 365: ");
+
+                int dayNum = int.Parse(Console.ReadLine());
+
+                if (dayNum < 1 || dayNum > 365)
                 {
-                    break;
+                  throw new ArgumentOutOfRangeException("Day out of range");
                 }
-                else
+
+                int monthNum = 0;
+
+                foreach (int daysInMonth in DaysInMonths)
                 {
-                    dayNum -= daysInMonth;
-                    monthNum++;
+                    if (dayNum <= daysInMonth)
+                    {
+                        break;
+                    }
+                    else
+                    {
+                        dayNum -= daysInMonth;
+                        monthNum++;
+                    }
                 }
+
+
+                MonthName temp = (MonthName)monthNum;
+                string monthName = temp.ToString();
+
+                Console.WriteLine("{0} {1}", dayNum, monthName);
+
+            }
+            catch (Exception caught)
+            {
+                Console.WriteLine("An exception encountered: {0}", caught);
             }
 
-            MonthName temp = (MonthName)monthNum;
-            string monthName = temp.ToString();
-
-            Console.WriteLine("{0} {1}", dayNum, monthName);
+            
         }
         // Don't modify anything below here
         static System.Collections.ICollection DaysInMonths
