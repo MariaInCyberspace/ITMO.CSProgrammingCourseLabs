@@ -1,4 +1,5 @@
 ﻿
+using System.Collections;
 class BankAccount
 {
     private long accNo;
@@ -6,6 +7,8 @@ class BankAccount
     private AccountType accType;
 
     private static long nextNumber = 123;
+
+    private Queue tranQueue = new Queue();
 
 
     // Constructors declaration below
@@ -45,6 +48,8 @@ class BankAccount
         if (sufficientFunds)
         {
             accBal -= amount;
+            BankTransaction tran = new BankTransaction(-amount);
+            tranQueue.Enqueue(tran);
         }
         return sufficientFunds;
     }
@@ -52,7 +57,14 @@ class BankAccount
     public decimal Deposit(decimal amount)
     {
         accBal += amount;
+        BankTransaction tran = new BankTransaction(amount);
+        tranQueue.Enqueue(tran);
         return accBal;
+    }
+
+    public Queue Transactions()
+    {
+        return tranQueue;
     }
 
     public long Number()

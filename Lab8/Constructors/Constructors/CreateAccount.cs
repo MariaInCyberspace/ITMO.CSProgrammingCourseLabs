@@ -9,10 +9,15 @@ class CreateAccount
         BankAccount acc1, acc2, acc3, acc4; // Declaring a few variables of type BankAccount
 
         // Initialization of the declared above variables
-        acc1 = new BankAccount;
+        acc1 = new BankAccount();
         acc2 = new BankAccount(AccountType.Deposit);
         acc3 = new BankAccount(100);
         acc4 = new BankAccount(AccountType.Deposit, 500);
+
+        acc1.Deposit(150);
+        acc2.Withdraw(50);
+        acc3.Deposit(45);
+        acc4.Withdraw(32);
 
         // Log the results to the console
         Write(acc1);
@@ -26,5 +31,11 @@ class CreateAccount
         Console.WriteLine("Account number is {0}", acc.Number());
         Console.WriteLine("Account balance is {0}", acc.Balance());
         Console.WriteLine("Account type is {0}", acc.Type());
+        Console.WriteLine("Transactions:");
+        foreach (BankTransaction tran in acc.Transactions())
+        {
+            Console.WriteLine("Date/Time: {0}\tAmount: {1}", tran.When(), tran.Amount());
+        }
+        Console.WriteLine();
     }
 }
