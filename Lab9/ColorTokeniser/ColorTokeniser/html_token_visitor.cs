@@ -3,10 +3,17 @@ namespace CSharp
 {
     using System;
 
-    public class HTMLTokenVisitor : NullTokenVisitor
+    public sealed class HTMLTokenVisitor : ITokenVisitor
     {
         // Add methods here
+        
+        private void SpannedFilteredWhite(string spanName, IToken token)
+        {
+            Console.Write("<span class=\"{0}\">", spanName);
+            FilteredWhite(token);
+            Console.Write("</span>");
 
+        }
         private void FilteredWhite(IToken token)
         {
             string src = token.ToString();
@@ -27,39 +34,45 @@ namespace CSharp
                 Console.Write(dst);
             }
         }
-        public override void Visit(ILineStartToken line)
+
+        public void Visit(IDirectiveToken token)
+        {
+            SpannedFilteredWhite("directive", token);
+        }
+        public void Visit(ILineStartToken line)
         {
             Console.Write("<span class=\"line_number\">");
             Console.Write("{0,3}", line.Number());
             Console.Write("</span>");
 
         }
-        public override void Visit(ILineEndToken t)
+        public void Visit(ILineEndToken t)
         {
             Console.WriteLine(); // Not Write
         }
 
-        public override void Visit(IIdentifierToken token)
+        public void Visit(IIdentifierToken token)
         {
-            Console.Write(token.ToString());
+            SpannedFilteredWhite("identifier", token);
         }
 
-        public override void Visit(ICommentToken token)
+        public void Visit(ICommentToken token)
+        {
+            SpannedFilteredWhite("comment", token);
+        }
+
+        public void Visit(IKeywordToken token)
+        {
+            SpannedFilteredWhite("keyword", token);
+
+        }
+
+        public void Visit(IOtherToken token)
         {
             FilteredWhite(token);
         }
 
-        public override void Visit(IKeywordToken token)
-        {
-            Console.Write(token.ToString());
-        }
-
-        public override void Visit(IOtherToken token)
-        {
-            FilteredWhite(token);
-        }
-
-        public override void Visit(IWhiteSpaceToken token)
+        public void Visit(IWhiteSpaceToken token)
         {
             Console.Write(token.ToString());
         }
