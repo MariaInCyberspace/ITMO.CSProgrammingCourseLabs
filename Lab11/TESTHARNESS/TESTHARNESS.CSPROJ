@@ -92,7 +92,6 @@
     <Compile Include="CreateAccount.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Content Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
