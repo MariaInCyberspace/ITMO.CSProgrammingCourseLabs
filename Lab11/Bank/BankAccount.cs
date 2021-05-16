@@ -14,11 +14,28 @@ namespace Banking
 
         private static long nextNumber = 123;
 
+        public override bool Equals(object acc1)
+        {
+            return this == (BankAccount)acc1;
+        }
+
+        public override string ToString()
+        {
+            string retVal = "Number: " + this.accNo + "\tType: ";
+            retVal += (this.accType == AccountType.Checking) ? "Checking" : "Deposit";
+            retVal += "\tBalance: " + this.accBal;
+            return retVal;
+        }
+        public override int GetHashCode()
+        {
+            return (int)this.accNo;
+        }
+
+
+        // Operator redefinition
         public static bool operator ==(BankAccount acc1, BankAccount acc2)
         {
-            if ((acc1.accNo == acc2.accNo) &&
-            (acc1.accType == acc2.accType) &&
-            (acc1.accBal == acc2.accBal))
+            if ((acc1.accNo == acc2.accNo) && (acc1.accType == acc2.accType) && (acc1.accBal == acc2.accBal))
             {
                 return true;
             }

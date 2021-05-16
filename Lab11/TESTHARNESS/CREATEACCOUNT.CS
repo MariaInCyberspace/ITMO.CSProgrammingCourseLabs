@@ -21,7 +21,7 @@ class CreateAccount
 
 		// Compare acc1 and acc2 using the == operator (should be false as the account numbers will be different)
 		// bool areTheyEqual = acc1 == acc2;
-		if (acc1 == acc2)
+		if (acc1.Equals(acc2))
         {
 			Console.WriteLine("Both accounts are the same. They shouldn't be. Just sayin'...");
         } else
@@ -30,7 +30,7 @@ class CreateAccount
         }
 
 		// Compare acc1 and acc2 using the != operator (should be true as the account numbers will be different)
-		if (acc1 != acc2)
+		if (!acc1.Equals(acc2))
 		{
 			Console.WriteLine("The accounts aren't equal. All good. *thumbs up*");
 		}
@@ -44,8 +44,7 @@ class CreateAccount
 		BankAccount acc3 = Bank.GetAccount(accNo1); 
 
 		// Compare acc1 and acc3 using the == operator (should be true as all the data will be the same)
-
-		if (acc1 == acc3)
+		if (acc1.Equals(acc3))
         {
             Console.WriteLine("The accounts are equal. Something's wrong with this picture.");
         } else
@@ -54,8 +53,7 @@ class CreateAccount
         }
 
 		// Compare acc1 and acc3 using the == operator (should be false)
-
-		if (acc1 != acc3)
+		if (!acc1.Equals(acc3))
         {
 			Console.WriteLine("The accounts aren't equal, which is great.");
         } else
@@ -63,9 +61,14 @@ class CreateAccount
 			Console.WriteLine("Well, I don't know how to break it to you, but the accounts are equal. Truly sorry, man...");
         }
 
-		Console.WriteLine(acc1.Number()); 
-		Console.WriteLine(acc2.Number());
-		Console.WriteLine(acc3.Number());
+		Console.WriteLine("acc1 = {0}", acc1); 
+		Console.WriteLine("acc2 = {0}", acc2);
+		Console.WriteLine("acc3 = {0}", acc3);
+
+		acc1.Dispose();
+		acc2.Dispose();
+		acc3.Dispose();
+
 		Console.ReadLine();
 
 	}

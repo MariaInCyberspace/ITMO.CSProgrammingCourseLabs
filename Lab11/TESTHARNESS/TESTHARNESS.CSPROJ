@@ -77,8 +77,9 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="bank">
-      <HintPath>..\Bank\bank.dll</HintPath>
+    <Reference Include="Bank, Version=1.0.7806.5547, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Bank\bin\Debug\Bank.exe</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <Name>mscorlib</Name>
