@@ -46,18 +46,9 @@ namespace FileDetails
             }
 
             Summarize(contents); // Call Summarize method
-
-            /*foreach (char c in contents)
-            {
-                Console.Write(c);
-            }*/
-                    
+                   
             Console.WriteLine(args.Length); // Get the length of the array
 
-            /*foreach (string arg in args)
-            {
-                Console.WriteLine(arg); // Output each element of the array
-            }*/
             reader.Close(); // Close the created above StreamReader object
         }
     }
