@@ -8,7 +8,6 @@ class CreateAccount
         Console.Write("Enter amount to deposit: ");
         decimal amount = decimal.Parse(Console.ReadLine());
         acc.Deposit(amount);
-
     }
 
     public static void TestWithdraw(BankAccount acc)
