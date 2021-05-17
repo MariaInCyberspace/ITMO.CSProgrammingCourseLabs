@@ -27,11 +27,13 @@ namespace WhatDay2
         {
             try 
             {
+                const int minDayNum = 1;
+                const int maxDayNum = 365;
                 Console.Write("Please input a day number between 1 and 365: ");
 
                 int dayNum = int.Parse(Console.ReadLine());
 
-                if (dayNum < 1 || dayNum > 365)
+                if (dayNum < minDayNum || dayNum > maxDayNum)
                 {
                   throw new ArgumentOutOfRangeException("Day out of range");
                 }
@@ -67,6 +69,6 @@ namespace WhatDay2
         }
         // Don't modify anything below here
         static System.Collections.ICollection DaysInMonths
-            = new int[12] { 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
+            = new int[] { 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
     }
 }
