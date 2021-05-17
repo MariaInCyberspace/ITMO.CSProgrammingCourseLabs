@@ -37,17 +37,15 @@ namespace CopyFileUpper
                 }
                 swTo.Close();
                 srFrom.Close();
-
             }
-            catch (FileNotFoundException) 
+            catch (FileNotFoundException f) 
             {
-                Console.WriteLine("Input file not found.");
+                Console.WriteLine("Input file not found: {0}", f.ToString());
             }
             catch (Exception e)
             {
                 Console.WriteLine("Unexpected exception: {0}", e.ToString());
             }
-
         }
     }
 }
